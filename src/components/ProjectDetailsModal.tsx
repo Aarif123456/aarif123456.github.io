@@ -45,7 +45,7 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
     return (
         <Modal {...props} size='lg' aria-labelledby='contained-modal-title-vcenter' centered className='modal-inside'>
             <span onClick={onHide} className='modal-close'>
-                <i className='fas fa-times fa-3x close-icon'></i>
+                <i className='fas fa-times fa-3x close-icon' />
             </span>
             <div className='col-md-12'>
                 <div className='col-md-10 mx-auto' style={{ paddingBottom: '50px' }}>
@@ -54,9 +54,10 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
                             className='iconify slider-iconfiy'
                             data-icon='emojione:red-circle'
                             data-inline='false'
-                            style={{ marginLeft: '5px' }}></span>{' '}
-                        &nbsp; <span className='iconify slider-iconfiy' data-icon='twemoji:yellow-circle' data-inline='false'></span> &nbsp;{' '}
-                        <span className='iconify slider-iconfiy' data-icon='twemoji:green-circle' data-inline='false'></span>
+                            style={{ marginLeft: '5px' }}
+                        />{' '}
+                        &nbsp; <span className='iconify slider-iconfiy' data-icon='twemoji:yellow-circle' data-inline='false' /> &nbsp;{' '}
+                        <span className='iconify slider-iconfiy' data-icon='twemoji:green-circle' data-inline='false' />
                     </div>
                     <AwesomeSlider
                         cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
@@ -70,7 +71,7 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
                         {title}
                         {url ? (
                             <a href={url} target='_blank' rel='noopener noreferrer' className='link-href'>
-                                <i className='fas fa-external-link-alt' style={{ marginLeft: '10px' }}></i>
+                                <i className='fas fa-external-link-alt' style={{ marginLeft: '10px' }} />
                             </a>
                         ) : null}
                     </h3>

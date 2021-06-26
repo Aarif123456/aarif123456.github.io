@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, memo } from 'react';
-import { ReactTypical as Typical } from '@deadcoder0904/react-typical'
+import { ReactTypical as Typical } from '@deadcoder0904/react-typical';
 import Switch from 'react-switch';
 import { SharedBasicInfo } from '.';
 
@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const Header: FunctionComponent<Props> = (props) => {
-    let titles: (string|number)[] = [];
+    let titles: (string | number)[] = [];
     const { sharedData } = props;
     const [checked, setChecked] = useState(true);
 
@@ -44,7 +44,7 @@ export const Header: FunctionComponent<Props> = (props) => {
             <div className='row aligner' style={{ height: '100%' }}>
                 <div className='col-md-12'>
                     <div>
-                        <span className='iconify header-icon' data-icon='la:laptop-code' data-inline='false'></span>
+                        <span className='iconify header-icon' data-icon='la:laptop-code' data-inline='false' />
                         <br />
                         <h1 className='mb-0'>
                             <Typical steps={[name]} wrapper='p' />
@@ -72,7 +72,8 @@ export const Header: FunctionComponent<Props> = (props) => {
                                         textAlign: 'end',
                                         marginLeft: '20px',
                                         color: '#353239'
-                                    }}></span>
+                                    }}
+                                />
                             }
                             checkedIcon={
                                 <span
@@ -86,7 +87,8 @@ export const Header: FunctionComponent<Props> = (props) => {
                                         textAlign: 'end',
                                         marginLeft: '10px',
                                         color: '#353239'
-                                    }}></span>
+                                    }}
+                                />
                             }
                             id='icon-switch'
                         />

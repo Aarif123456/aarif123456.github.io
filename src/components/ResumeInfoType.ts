@@ -32,5 +32,5 @@ export interface ExperienceEntity {
     years: string;
     mainTech?: [string];
     technologies?: [string];
-    class:string;
+    class: string;
 }

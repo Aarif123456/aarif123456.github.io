@@ -43,9 +43,9 @@ export const About: FunctionComponent<Props> = (props) => {
                         <div className='col-md-10'>
                             <div className='card'>
                                 <div className='card-header'>
-                                    <span className='iconify' data-icon='emojione:red-circle' data-inline='false'></span> &nbsp;{' '}
-                                    <span className='iconify' data-icon='twemoji:yellow-circle' data-inline='false'></span> &nbsp;{' '}
-                                    <span className='iconify' data-icon='twemoji:green-circle' data-inline='false'></span>
+                                    <span className='iconify' data-icon='emojione:red-circle' data-inline='false' /> &nbsp;{' '}
+                                    <span className='iconify' data-icon='twemoji:yellow-circle' data-inline='false' /> &nbsp;{' '}
+                                    <span className='iconify' data-icon='twemoji:green-circle' data-inline='false' />
                                 </div>
                                 <div
                                     className='card-body font-trebuchet text-justify ml-3 mr-3'

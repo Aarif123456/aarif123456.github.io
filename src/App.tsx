@@ -1,6 +1,6 @@
 import { FunctionComponent, StrictMode, useCallback, useEffect, useState } from 'react';
 import './App.scss';
-import $ from "jquery";
+import $ from 'jquery';
 import { Header, Footer, About, Experience, Projects, Skills, SharedData, ResumeData } from './components';
 
 export const App: FunctionComponent = () => {
@@ -14,37 +14,35 @@ export const App: FunctionComponent = () => {
             url: path,
             dataType: 'json',
             cache: false,
-            success: function (data:ResumeData) {
+            success: function (data: ResumeData) {
                 setResumeData(data);
             },
-            error: function (_xhr:unknown, _status:string, err:string) {
+            error: function (_xhr: unknown, _status: string, err: string) {
                 console.warn(err);
             }
         });
-    }
+    };
 
-
-    const loadSharedData = (path:string) => {
+    const loadSharedData = (path: string) => {
         void $.ajax({
             url: path,
             dataType: 'json',
             cache: false,
-            success: function (data:SharedData) {
+            success: function (data: SharedData) {
                 setSharedData(data);
             },
-            error: function (_xhr:unknown, _status:string, err:string) {
+            error: function (_xhr: unknown, _status: string, err: string) {
                 console.warn(err);
             }
         });
-    }
-    const loadSharedDataCallback = useCallback (()=>{
+    };
+    const loadSharedDataCallback = useCallback(() => {
         loadSharedData(sharedPath);
     }, [sharedPath]);
 
-    const loadResumeFromPathCallback = useCallback (()=>{
+    const loadResumeFromPathCallback = useCallback(() => {
         loadResumeFromPath(resumePath);
     }, [resumePath]);
-
 
     useEffect(() => {
         loadSharedDataCallback();

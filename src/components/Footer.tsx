@@ -9,13 +9,12 @@ export const Footer: FunctionComponent<Props> = (props) => {
     const { sharedBasicInfo } = props;
     const socials = sharedBasicInfo && 'social' in sharedBasicInfo ? sharedBasicInfo.social ?? [] : [];
     const networks = socials.map((network) => (
-            <span key={network.name} className='m-4'>
-                <a href={network.url} target='_blank' rel='noopener noreferrer'>
-                    <i className={network.class}></i>
-                </a>
-            </span>
-        )
-    );
+        <span key={network.name} className='m-4'>
+            <a href={network.url} target='_blank' rel='noopener noreferrer'>
+                <i className={network.class} />
+            </a>
+        </span>
+    ));
     return (
         <footer>
             <div className='col-md-12'>

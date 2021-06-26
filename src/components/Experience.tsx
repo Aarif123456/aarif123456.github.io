@@ -38,7 +38,7 @@ export const Experience: FunctionComponent<Props> = (props) => {
                     color: '#fff',
                     textAlign: 'center'
                 }}
-                icon={<i className={`${work.class} experience-icon`}></i>}
+                icon={<i className={`${work.class} experience-icon`} />}
                 key={i}>
                 <div style={{ textAlign: 'left', marginBottom: '4px' }}>{mainTech}</div>
 
@@ -73,7 +73,7 @@ export const Experience: FunctionComponent<Props> = (props) => {
                             color: '#fff',
                             textAlign: 'center'
                         }}
-                        icon={<i className='fas fa-hourglass-start mx-auto experience-icon'></i>}
+                        icon={<i className='fas fa-hourglass-start mx-auto experience-icon' />}
                     />
                 </VerticalTimeline>
             </div>
