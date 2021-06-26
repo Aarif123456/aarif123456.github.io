@@ -1,8 +1,8 @@
 import { FunctionComponent } from 'react';
 import { Icon } from '@iconify/react';
-import angularIcon from '@iconify/icons-logos/angular-icon';
-import reactIcon from '@iconify/icons-logos/react';
-import vueIcon from '@iconify/icons-logos/vue';
+import javaIcon from '@iconify/icons-logos/java';
+import pythonIcon from '@iconify/icons-logos/python';
+import cPlusplus from '@iconify/icons-logos/c-plusplus';
 import { SharedBasicInfo, BasicInfo } from '.';
 
 type Props = {
@@ -32,9 +32,9 @@ export const About: FunctionComponent<Props> = (props) => {
                         <div className='polaroid'>
                             <span style={{ cursor: 'auto' }}>
                                 <img height='250px' src={profilepic} alt='Avatar placeholder' />
-                                <Icon icon={angularIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
-                                <Icon icon={reactIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
-                                <Icon icon={vueIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                                <Icon icon={javaIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                                <Icon icon={cPlusplus} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
+                                <Icon icon={pythonIcon} style={{ fontSize: '400%', margin: '9% 5% 0 5%' }} />
                             </span>
                         </div>
                     </div>
