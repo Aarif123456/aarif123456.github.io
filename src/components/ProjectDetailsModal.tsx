@@ -4,7 +4,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from '../scss/light-slider.scss';
 import AwesomeSliderStyles2 from '../scss/dark-slider.scss';
 import 'react-awesome-slider/dist/custom-animations/scale-out-animation.css';
-import { ProjectsEntity } from '.';
+import { ProjectsEntity, createIcon } from '.';
 
 type Props = {
     data?: ProjectsEntity;
@@ -28,7 +28,7 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
             <li className='list-inline-item mx-3' key={i}>
                 <span>
                     <div className='text-center'>
-                        <i className={icons.class} style={{ fontSize: '300%' }}>
+                        <i className={createIcon(icons.name)} style={{ fontSize: '300%' }}>
                             <p className='text-center' style={{ fontSize: '30%' }}>
                                 {icons.name}
                             </p>
@@ -48,24 +48,26 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
                 <i className='fas fa-times fa-3x close-icon' />
             </span>
             <div className='col-md-12'>
-                <div className='col-md-10 mx-auto' style={{ paddingBottom: '50px' }}>
-                    <div className='slider-tab'>
-                        <span
-                            className='iconify slider-iconfiy'
-                            data-icon='emojione:red-circle'
-                            data-inline='false'
-                            style={{ marginLeft: '5px' }}
-                        />{' '}
-                        &nbsp; <span className='iconify slider-iconfiy' data-icon='twemoji:yellow-circle' data-inline='false' /> &nbsp;{' '}
-                        <span className='iconify slider-iconfiy' data-icon='twemoji:green-circle' data-inline='false' />
+                {images.length > 0 && (
+                    <div className='col-md-10 mx-auto' style={{ paddingBottom: '50px' }}>
+                        <div className='slider-tab'>
+                            <span
+                                className='iconify slider-iconfiy'
+                                data-icon='emojione:red-circle'
+                                data-inline='false'
+                                style={{ marginLeft: '5px' }}
+                            />
+                            &nbsp; <span className='iconify slider-iconfiy' data-icon='twemoji:yellow-circle' data-inline='false' /> &nbsp;{' '}
+                            <span className='iconify slider-iconfiy' data-icon='twemoji:green-circle' data-inline='false' />
+                        </div>
+                        <AwesomeSlider
+                            cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+                            animation='scaleOutAnimation'
+                            className='slider-image'>
+                            {img}
+                        </AwesomeSlider>
                     </div>
-                    <AwesomeSlider
-                        cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-                        animation='scaleOutAnimation'
-                        className='slider-image'>
-                        {img}
-                    </AwesomeSlider>
-                </div>
+                )}
                 <div className='col-md-10 mx-auto'>
                     <h3 style={{ padding: '5px 5px 0 5px' }}>
                         {title}

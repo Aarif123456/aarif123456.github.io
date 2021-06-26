@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import { BasicInfo, SharedSkills } from '.';
+import { BasicInfo, SharedSkills, createIcon } from '.';
 
 type Props = {
     resumeBasicInfo?: BasicInfo;
@@ -15,7 +15,7 @@ export const Skills: FunctionComponent<Props> = (props) => {
             <li className='list-inline-item mx-3' key={i}>
                 <span>
                     <div className='text-center skills-tile'>
-                        <i className={skills.class} style={{ fontSize: '220%' }}>
+                        <i className={createIcon(skills.name)} style={{ fontSize: '220%' }}>
                             <p className='text-center' style={{ fontSize: '30%', marginTop: '4px' }}>
                                 {skills.name}
                             </p>

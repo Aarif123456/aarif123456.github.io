@@ -2,6 +2,7 @@ export * from './About';
 export * from './Experience';
 export * from './Footer';
 export * from './Header';
+export * from './iconCreator';
 export * from './ProjectDetailsModal';
 export * from './Projects';
 export * from './Skills';

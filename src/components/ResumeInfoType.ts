@@ -17,13 +17,13 @@ export interface SectionName {
 export interface ProjectsEntity {
     title: string;
     startDate: string;
+    endDate?: string;
     description: string;
     images?: [string];
     url: string;
     technologies?: [TechnologiesEntity];
 }
 export interface TechnologiesEntity {
-    class: string;
     name: string;
 }
 export interface ExperienceEntity {

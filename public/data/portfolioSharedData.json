@@ -24,80 +24,58 @@
     "skills": {
       "icons": [
         {
-          "name": "Java",
-          "class": "devicon-java-plain"
+          "name": "Java"
         },
         {
-          "name": "C++",
-          "class": "devicon-cplusplus-plain"
+          "name": "C++"
         },
         {
-          "name": "Python",
-          "class": "devicon-python-plain"
+          "name": "Python"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain"
+          "name": "C#"
         },
         {
-          "name": "PHP",
-          "class": "devicon-php-plain"
+          "name": "PHP"
         },
         {
-          "name": "C",
-          "class": "devicon-c-plain"
+          "name": "C"
         },
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain"
+          "name": "HTML 5"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain"
+          "name": "CSS 3"
         },
         {
-          "name": "React",
-          "class": "devicon-react-plain"
+          "name": "React"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain"
+          "name": "TypeScript"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain"
+          "name": "JavaScript"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original"
+          "name": "Sass"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain"
+          "name": "Bootstrap"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain"
+          "name": "MySql"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain"
+          "name": "AWS"
         },
         {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-plain"
+          "name": "Google Cloud"
         },
         {
-          "name": "Google Cloud",
-          "class": "devicon-google-plain"
+          "name": "Apache"
         },
         {
-          "name": "Apache",
-          "class": "devicon-apache-plain"
-        },
-        {
-          "name": "Docker",
-          "class": "devicon-docker-plain"
+          "name": "Docker"
         }       
       ]
     }

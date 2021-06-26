@@ -18,6 +18,5 @@ export interface SharedSkills {
 }
 export interface IconsEntity {
     name: string;
-    class: string;
     level: string;
 }
