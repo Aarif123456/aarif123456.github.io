@@ -41,6 +41,7 @@ export const Projects: FunctionComponent<Props> = (props) => {
                                 />
                             )}
                             <span className='project-date'>{projects.startDate}</span>
+                            <span className='project-date'>{projects.endDate}</span>
                             <br />
                             <p className='project-title-settings mt-3'>{projects.title}</p>
                         </div>
