@@ -1,0 +1,104 @@
+{
+    "basic_info": {
+      "name": "Abdullah Arif",
+      "titles": [ "Software Developer", "Avid Learner"],
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Aarif123456",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com/in/abdullaharif98",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/abdullah_arif1198",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "images/profile.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain"
+        },
+        {
+          "name": "C",
+          "class": "devicon-c-plain"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain"
+        },
+        {
+          "name": "Google Cloud",
+          "class": "devicon-google-plain"
+        },
+        {
+          "name": "Apache",
+          "class": "devicon-apache-plain"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain"
+        }       
+      ]
+    }
+  }
