@@ -1,0 +1,166 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Abdullah Arif. Recently, I have graduated as a Computer Science student from the University of Windsor. You can browse my project section to see some of the things I have created over the years. There are three reasons why I usually start working on a project. One, it seems like an interesting idea; for example, a library website for Hogwarts. I had a blast trying to think of things wizards and witches would find useful on a library website. Two, I am trying to learn some concepts or technology. For example, I created the automated spear-phisher so I could learn more about phishing attacks. Lastly, it something that's inherently useful. An example of this is my Amazon deal finder.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Automated Spear-phisher",
+        "startDate": "Oct 2020",
+        "endDate": "Apr 2021",
+        "description": "A security research tool to send targeted spam messages on either Facebook or Twitter. The program analyzes the feed of its target to increase the effectiveness of the messages.",
+        "images": [
+        ],
+        "url": "https://github.com/Aarif123456/Fb-Twitter-gui",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Apache"
+          }
+        ]
+      },
+      {
+        "title": "Image Repository",
+        "startDate": "May 2021",
+        "description": "A full-stack image repository, where users can store their files. Created a GCP cloud function to implement CP-ABE encryption and used it to ensure files are secure at rest.",
+        "images": [
+        ],
+        "url": "https://github.com/Aarif123456/image_repository",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Google Cloud"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Keystroke Dynamics Spoofer",
+        "startDate": "Jan 2020",
+        "endDate": "Apr 2020",
+        "description": "A program that authenticates users based on their typing patterns. And a spoofer that uses the genetic algorithm to mimic the user’s typing pattern.",
+        "images": [
+        ],
+        "url": "https://github.com/Aarif123456/KeystrokeDynamicsSpoofer",
+        "technologies": [
+           {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Distributed Key-Value Store",
+        "startDate": "Jan 2020",
+        "endDate": "Apr 2020",
+        "description": "AA distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.",
+        "images": [
+        ],
+        "url": "https://github.com/Aarif123456/Distributed-DB",
+        "technologies": [
+           {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          }
+        ]
+      },
+      {
+        "title": "War of Weebles",
+        "startDate": "Jan 2020",
+        "endDate": "Apr 2020",
+        "description": "A distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.",
+        "images": [
+        ],
+        "url": "https://github.com/Aarif123456/GoalOrientedBehaviour",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Amazon",
+        "title": "Software Development Engineer Intern",
+        "years": "May 2020 – Aug 2020",
+        "mainTech": [
+          "React",
+          "Java",
+          "AWS"
+        ],
+        "technologies": [
+          "TypeScript",
+          "JavaScript",
+          "REST API",
+          "Java",
+          "Material UI",
+          "AWS Lambda",
+          "AWS CDK",
+          "AWS DynamoDB"
+        ],
+        "class":"fab fa-amazon"
+      },
+      {
+        "company": "University of Windsor",
+        "title": "Research Assistant (RA)",
+        "years": "Feb 2020 - May 2020",
+        "mainTech": [
+          "Java"
+        ],
+        "technologies": [
+          "Spring",
+          "JPBC",
+          "mCP-ABE"
+        ],
+        "class":"fas fa-university"
+      }
+      ,
+      {
+        "company": "JoaTu",
+        "title": "Software Engineer Intern",
+        "years": "Dec 2018 – May 2019",
+        "mainTech": [
+          "Python",
+          "Ruby"
+        ],
+        "technologies": [
+          "Django",
+          "Ruby in Rails",
+          "UML",
+          "Docker"
+        ],
+        "class":"fas fa-cogs"
+      }
+    ]
+  }
