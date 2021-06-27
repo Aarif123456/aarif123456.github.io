@@ -70,6 +70,20 @@
         ]
       },
       {
+        "title": "Modern Deedy",
+        "startDate": "June 2021",
+        "description": "A latex resume template, that combines the layout of Jake's resume with the gloss of Deedy's resume",
+        "images": [
+            "https://i.imgur.com/92v0sxg.png"
+        ],
+        "url": "https://www.overleaf.com/latex/templates/modern-deedy/cxtjgrmpsrvh",
+        "technologies": [
+          {
+            "name": "Latex"
+          }
+        ]
+    },
+      {
         "title": "Distributed Key-Value Store",
         "startDate": "Jan 2020",
         "endDate": "Apr 2020",

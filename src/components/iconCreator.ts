@@ -1,5 +1,5 @@
 /* More icons at: https://devicon.dev */
-const TECH_MAP: Map<string, string> = new Map([
+const DEV_TECH_MAP: Map<string, string> = new Map([
     ['amazon web service', 'devicon-amazonwebservices-plain'],
     ['android', 'devicon-android-plain'],
     ['angular', 'devicon-angularjs-plain'],
@@ -63,5 +63,5 @@ const TECH_MAP: Map<string, string> = new Map([
 ]);
 
 export function createIcon(tech: string): string {
-    return TECH_MAP.get(tech.toLowerCase()) ?? '';
+    return DEV_TECH_MAP.get(tech.toLowerCase()) ?? '';
 }
