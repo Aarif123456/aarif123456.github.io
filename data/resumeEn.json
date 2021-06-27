@@ -20,11 +20,9 @@
         "url": "https://github.com/Aarif123456/Fb-Twitter-gui",
         "technologies": [
           {
-            "class": "devicon-python-plain",
             "name": "Python"
           },
           {
-            "class": "devicon-apache-plain",
             "name": "Apache"
           }
         ]
@@ -38,27 +36,21 @@
         "url": "https://github.com/Aarif123456/image_repository",
         "technologies": [
           {
-            "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-java-plain",
             "name": "Java"
           },
           {
-            "class": "devicon-php-plain",
             "name": "PHP"
           },
           {
-            "class": "devicon-google-plain",
             "name": "Google Cloud"
           },
           {
-            "class": "devicon-mysql-plain",
             "name": "MySQL"
           }
         ]
@@ -73,22 +65,34 @@
         "url": "https://github.com/Aarif123456/KeystrokeDynamicsSpoofer",
         "technologies": [
            {
-            "class": "devicon-python-plain",
             "name": "Python"
           }
         ]
       },
       {
+        "title": "Modern Deedy",
+        "startDate": "June 2021",
+        "description": "A latex resume template, that combines the layout of Jake's resume with the gloss of Deedy's resume",
+        "images": [
+            "https://i.imgur.com/92v0sxg.png"
+        ],
+        "url": "https://www.overleaf.com/latex/templates/modern-deedy/cxtjgrmpsrvh",
+        "technologies": [
+          {
+            "name": "Latex"
+          }
+        ]
+    },
+      {
         "title": "Distributed Key-Value Store",
         "startDate": "Jan 2020",
         "endDate": "Apr 2020",
-        "description": "AA distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.",
+        "description": "A distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.",
         "images": [
         ],
         "url": "https://github.com/Aarif123456/Distributed-DB",
         "technologies": [
            {
-            "class": "devicon-java-plain",
             "name": "Java"
           }
         ]
@@ -97,13 +101,12 @@
         "title": "War of Weebles",
         "startDate": "Jan 2020",
         "endDate": "Apr 2020",
-        "description": "A distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.",
+        "description": "A capture-the-flag-styled shooting game composed of AI-controlled players. The agents change their goals based on various factors, such as their health, current weapon, their personality and what they see.",
         "images": [
         ],
         "url": "https://github.com/Aarif123456/GoalOrientedBehaviour",
         "technologies": [
           {
-            "class": "devicon-csharp-plain",
             "name": "C#"
           }
         ]
